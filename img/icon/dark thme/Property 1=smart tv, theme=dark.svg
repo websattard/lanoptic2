@@ -1,0 +1,34 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="13" y="21" width="39" height="28" rx="5" fill="white" fill-opacity="0.19"/>
+<g filter="url(#filter0_bd)">
+<rect x="13" y="21" width="39" height="28" rx="5" stroke="white" stroke-opacity="0.19" stroke-width="5"/>
+</g>
+<g filter="url(#filter1_bd)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M49.6068 12.4045C50.1013 12.9133 50.1333 13.7276 49.6803 14.2758L42.0763 23.4795C41.7961 23.8187 41.3987 23.9897 41.0009 23.9876C40.5408 24.0512 40.0576 23.8793 39.7352 23.4806L38.7441 22.2548C38.6946 22.202 38.6498 22.1465 38.6097 22.0886L33.3138 15.5386C32.8653 14.9839 32.9015 14.1688 33.3973 13.6586C33.8932 13.1484 34.6852 13.1111 35.2242 13.5726L40.8557 18.3945L47.7885 12.3289C48.3212 11.8628 49.1124 11.8957 49.6068 12.4045Z" fill="white" fill-opacity="0.19"/>
+</g>
+<path d="M41.4487 34.1285C42.1283 34.5108 42.1283 35.4892 41.4487 35.8715L28.4903 43.1616C27.8237 43.5366 27 43.0549 27 42.29V27.71C27 26.9451 27.8237 26.4634 28.4903 26.8384L41.4487 34.1285Z" fill="#FF730E"/>
+<defs>
+<filter id="filter0_bd" x="4.5" y="13.5" width="56" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_bd" x="27" y="7" width="28.9999" height="24.0005" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
