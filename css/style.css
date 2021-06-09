@@ -191,6 +191,7 @@ body {
     top: 6px;
     width: 64px;
     height: 64px;
+    filter: blur(1px);
 }
 
 .tariff__link--internet::after {
