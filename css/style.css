@@ -198,19 +198,19 @@ body {
 }
 
 .tariff__link--internet::after {
-    background: url(../img/icon/dark/internet_dark.svg) 100% 100% no-repeat;
+    background: url(../img/icon/dark/internet_dark.png) 100% 100% no-repeat;
 }
 
 .tariff__link--smart::after {
-    background: url(../img/icon/dark/smart-tv_dark.svg) 100% 100% no-repeat;
+    background: url(../img/icon/dark/smart-tv_dark.png) 100% 100% no-repeat;
 }
 
 .tariff__link--video::after {
-    background: url(../img/icon/dark/CCTV_dark.svg) 100% 100% no-repeat;
+    background: url(../img/icon/dark/CCTV_dark.png) 100% 100% no-repeat;
 }
 
 .tariff__link--web::after {
-    background: url(../img/icon/dark/sites_dark.svg) 100% 100% no-repeat;
+    background: url(../img/icon/dark/sites_dark.png) 100% 100% no-repeat;
 }
 
 
