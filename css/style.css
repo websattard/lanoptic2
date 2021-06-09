@@ -156,27 +156,35 @@ body {
 .tariff__link {
     position: relative;
     display: inline-block;
-    min-width: 299px;
-    padding: 91px 0 25px 23px;
     border-radius: 20px;
-    background-color: rgb(20%, 21%, 21%, .5);
     font-family: 'Montserrat';
     font-size: 22px;
     font-weight: 600;
     color: #ffffff;
+    background-color: rgba(20%, 21%, 21%, .5);
     cursor: pointer;
 }
 
-.tariff__link:hover {
-
+.tariff__link-text {
+    position: relative;
+    display: inline-block;
+    width: 299px;
+    padding: 91px 0 25px 23px;
+    border-radius: 20px;
+    z-index: 5;
 }
 
-.tariff__link--br {
+.tariff__link-text--smart {
+}
+
+.tariff__link-text--video {
+    width: 231px;
     padding-top: 64px;
+    padding-right: 67px;
 }
 
-.tariff__link-span {
-    display: inline-block;max-width: 100px;
+.tariff__link-text--web {
+
 }
 
 .tariff__link::before {
@@ -184,8 +192,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background: radial-gradient(69.75% 196.19% at 66.14% -77.55%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    opacity: 0;
 }
 
 .tariff__link::after {
@@ -201,16 +212,46 @@ body {
     background: url(../img/icon/dark/internet_dark.png) 100% 100% no-repeat;
 }
 
+.tariff__link--internet:hover::after {
+    background: url(../img/icon/lite/internet-lite.png);
+    transition: background .3s ease-in-out;
+}
+
 .tariff__link--smart::after {
     background: url(../img/icon/dark/smart-tv_dark.png) 100% 100% no-repeat;
+}
+
+.tariff__link--smart:hover::after {
+    background: url(../img/icon/lite/smart_tv-lite.png);
+    transition: background .3s ease-in-out;
 }
 
 .tariff__link--video::after {
     background: url(../img/icon/dark/CCTV_dark.png) 100% 100% no-repeat;
 }
 
+.tariff__link--video:hover::after {
+    background: url(../img/icon/lite/CCTV-lite.png) 100% 100% no-repeat;
+    transition: background .3s ease-in-out;
+}
+
 .tariff__link--web::after {
     background: url(../img/icon/dark/sites_dark.png) 100% 100% no-repeat;
+}
+
+.tariff__link--web:hover::after {
+    background: url(../img/icon/lite/sites-lite.png) 100% 100% no-repeat;
+    transition: background .3s ease-in-out;
+}
+
+.tariff__link:hover {
+    background-color: transparent;
+    transition: background-color .3s ease-in-out;
+}
+
+.tariff__link:hover::before {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
 }
 
 
