@@ -38,7 +38,7 @@
 body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background: #1E2020;
+    /*background: #1E2020;*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -167,6 +167,10 @@ body {
     cursor: pointer;
 }
 
+.tariff__link:hover {
+
+}
+
 .tariff__link--br {
     padding-top: 64px;
 }
@@ -191,7 +195,6 @@ body {
     top: 6px;
     width: 64px;
     height: 64px;
-    filter: blur(1px);
 }
 
 .tariff__link--internet::after {
@@ -209,6 +212,8 @@ body {
 .tariff__link--web::after {
     background: url(../img/icon/dark/sites_dark.svg) 100% 100% no-repeat;
 }
+
+
 
 
 
