@@ -69,11 +69,6 @@ body {
     text-decoration: none;
 }
 
-
-.header {
-    height: 80px;
-}
-
 .header--bottom-line {
     border-bottom: 1px solid #444444;
 }
