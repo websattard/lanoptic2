@@ -195,8 +195,23 @@ body {
     right: 0;
     bottom: 0;
     border-radius: 20px;
-    background: radial-gradient(69.75% 196.19% at 66.14% -77.55%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
     opacity: 0;
+}
+
+.tariff__link--internet::before {
+    background: radial-gradient(204.75% 339.19% at 157.14% -148.55%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+}
+
+.tariff__link--smart::before {
+    background: radial-gradient(633.75% 419.19% at -49.86% -213.55%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+}
+
+.tariff__link--video::before {
+    background: radial-gradient(436.75% 333.19% at 157.14% -148.55%, #FFB984 -225.08%, #9A30EE 59.06%, #1B1979 98.91%);
+}
+
+.tariff__link--web::before {
+    background: radial-gradient(446.75% 373.19% at 63.14% -154.55%, #FFB984 -225.08%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link::after {
