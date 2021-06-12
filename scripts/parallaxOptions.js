@@ -1,5 +1,6 @@
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene, {
-    pointerEvents: true
+    pointerEvents: true,
+    hoverOnly: true
 });
 parallaxInstance.invert(false, false);

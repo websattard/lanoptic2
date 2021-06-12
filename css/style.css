@@ -120,7 +120,7 @@ body {
 }
 
 .hero {
-    padding-top: 39px;
+    padding-top: 31px;
 }
 
 .hero__wrap {
@@ -299,7 +299,7 @@ body {
 }
 
 .tariff__link:hover::before {
-    opacity: 1;
+    opacity: .5;
     transition: opacity 0.3s ease-in-out;
 }
 
