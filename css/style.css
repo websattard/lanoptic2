@@ -1,3 +1,7 @@
+:root {
+
+}
+
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
@@ -211,17 +215,10 @@ body {
     z-index: 5;
 }
 
-.tariff__link-text--smart {
-}
-
 .tariff__link-text--video {
     width: 231px;
     padding-top: 64px;
     padding-right: 67px;
-}
-
-.tariff__link-text--web {
-
 }
 
 .tariff__link::before {
@@ -236,19 +233,19 @@ body {
 }
 
 .tariff__link--internet::before {
-    background: radial-gradient(204.75% 339.19% at 157.14% -148.55%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(301.63% 852.82% at 316.49% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link--smart::before {
-    background: radial-gradient(633.75% 419.19% at -49.86% -213.55%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(301.75% 853.17% at 211.82% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link--video::before {
-    background: radial-gradient(436.75% 333.19% at 157.14% -148.55%, #FFB984 -225.08%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(301.77% 853.17% at 106.38% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link--web::before {
-    background: radial-gradient(446.75% 373.19% at 63.14% -154.55%, #FFB984 -225.08%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(301.77% 853.17% at 1.71% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link::after {
