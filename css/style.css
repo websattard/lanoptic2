@@ -126,7 +126,7 @@ body {
 .hero__wrap {
     padding: 37px 11% 68px 52.1%;
     border-radius: 20px;
-    background: url('../img/hero-banner.png') 0px 0px / 115% 270% no-repeat;
+    background: radial-gradient(80.15% 473.44% at 76.25% -187.3%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%), #C4C4C4;
 }
 
 .hero__title {
@@ -228,24 +228,26 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 20px;
+    border-radius: 18px;
     opacity: 0;
 }
 
+/* ниже, в .tariff__link--***::before, бэки для карточек*/ 
+
 .tariff__link--internet::before {
-    background: radial-gradient(301.63% 852.82% at 316.49% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(333.03% 852.82% at 316.49% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link--smart::before {
-    background: radial-gradient(301.75% 853.17% at 211.82% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(332.84% 853.17% at 211.82% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link--video::before {
-    background: radial-gradient(301.77% 853.17% at 106.38% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(333.63% 853.17% at 106.38% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link--web::before {
-    background: radial-gradient(301.77% 853.17% at 1.71% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
+    background: radial-gradient(333.24% 853.17% at 1.71% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
 }
 
 .tariff__link::after {
