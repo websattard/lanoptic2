@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Лан Оптик</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header class="header header--bottom-line">
@@ -23,54 +25,43 @@
                     <a href="#" class="header__login login site-link">Войти</a>
                 </div>
             </div>
-
         </div>
     </header>
     <main class="main">
-        <section class="hero">
-            <div class="hero__parallax-scene scene container" id="scene">
-                <div class="hero__wrap" data-depth="0">
-                    <h1 class="hero__title title-site">
-                        Лан-Оптик
-                    </h1>
-                    <p class="hero__descr p-site">
-                        Передовые технологии связи
-                    </p>
-                </div>
-                <div class="hero__planet-wrap planet" data-depth="0.4">
-                </div>
-                <div class="hero_planet-fixed planet-fixed" data-depth="0.0"></div>
-                <div class="hero__planet-faster planet-faster" data-depth="0.6"></div>
-                <div class="hero__planet-slower planet-slower" data-depth="0.2"></div>
-                <ul class="hero__list tariff-list site-list">
-                    <li class="tariff-list__item">
-                        <a href="#" class="tariff__link tariff__link--internet site-link">
-                            <span class="tariff__link-text tariff__link-text--internet">Интернет</span>
-                        </a>
-                    </li>
-                    <li class="tariff-list__item">
-                        <a href="#" class="tariff__link tariff__link--smart site-link">
-                            <span class="tariff__link-text tariff__link-text--smart">Смарт ТВ</span>
-                        </a>
-                    </li>
-                    <li class="tariff-list__item">
-                        <a href="#" class="tariff__link tariff__link--video site-link">
-                            <span class="tariff__link-text tariff__link-text--video">Видео наблюдение</span>
-                        </a>
-                    </li>
-                    <li class="tariff-list__item">
-                        <a href="#" class="tariff__link tariff__link--web site-link">
-                            <span class="tariff__link-text tariff__link-text--web">Веб-студия</span>
-                        </a>
-                    </li>
-                </ul> 
+        <section class="hero container">
+            <div class="hero__banner planet">
+                <h1 class="hero__title site-title">
+                    Лан-Оптик
+                    <span class="hero__text">передовые технологии связи</span>
+                </h1>
             </div>
-            
+            <ul class="hero__list site-list">
+                <li class="hero__item tariff-item">
+                    <span class="tariff-item__bg tariff-item__bg--gray planet"></span>
+                    <span class="tariff-item__bg tariff-item__bg--color">
+                        <a href="#" class="hero__link site-link">Интернет</a>
+                    </span>
+                </li>
+                <li class="hero__item tariff-item">
+                    <span class="tariff-item__bg tariff-item__bg--gray planet"></span>
+                    <span class="tariff-item__bg tariff-item__bg--color">
+                        <a href="#" class="hero__link site-link">Смарт ТВ</a>
+                    </span>
+                </li>
+                <li class="hero__item tariff-item">
+                    <span class="tariff-item__bg tariff-item__bg--gray planet"></span>
+                    <span class="tariff-item__bg tariff-item__bg--color">
+                        <a href="#" class="hero__link site-link">Видео наблюдение</a>
+                    </span>
+                </li>
+                <li class="hero__item tariff-item">
+                    <span class="tariff-item__bg tariff-item__bg--gray planet"></span>
+                    <span class="tariff-item__bg tariff-item__bg--color">
+                        <a href="#" class="hero__link site-link">Веб-студия</a>
+                    </span>
+                </li>
+            </ul>
         </section>
-
     </main>
-
-    <script src="scripts/parallax.min.js"></script>
-    <script src="scripts/parallaxOptions.js"></script>
 </body>
 </html>
