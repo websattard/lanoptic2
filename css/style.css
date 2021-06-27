@@ -49,7 +49,7 @@ body {
 }
 
 .container {
-    max-width: 1334px;
+    max-width: 1776px;
     margin: 0 auto;
 }
 
@@ -74,8 +74,6 @@ body {
 }
 
 .header {
-    position: relative;
-    z-index: 10;
 }
 
 .header--bottom-line {
@@ -120,190 +118,53 @@ body {
 }
 
 .hero {
-    padding-top: 31px;
+    padding-top: 71px;
 }
 
-.hero__wrap {
-    padding: 37px 11% 68px 52.1%;
+.hero__banner {
+    margin-bottom: 104px;
+    padding: 52px 0 95px 927px;
     border-radius: 20px;
-    background: radial-gradient(80.15% 473.44% at 76.25% -187.3%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%), #C4C4C4;
-}
-
-.hero__title {
-    padding-bottom: 14px;
-    font-family: 'Montserrat';
-    color: #ffffff;
-    font-size: 85px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-
-.hero__descr {
-    padding-left: 8px;
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2.2px;
-}
-
-.hero__planet-wrap {
-    width: 100%;
-    height: 937px;
 }
 
 .planet {
-    left: -397px !important;
-    top: -643px !important;
-    background: url(../img/planet.svg) 0 0/100% 100% no-repeat;
-    position: relative !important;
+    background-image: url('../img/speed_planet.svg'), url('../img/planet.svg'), url('../img/speed_planet1.svg'), url('../img/hero-banner.png'), url('../img/fixsed.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: -9px, -256px, 8px, 0, 10px;
+    background-position-y: 144px, -378px, 128px, 0, 10px;
+    background-size: 50%, 70%, 50%, 100%, 50%;
 }
 
-.planet-fixed {
-    width: 130%;
-    height: 106%;
-    background: url(../img/fixsed.svg) -172px -227px/100% 100% no-repeat;
+.hero__title {
+    font-family: 'Montserrat';
+    font-size: 116px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #ffffff;
 }
 
-.planet-faster {
-    top: -4px !important;
-    left: 34px !important;
-    width: 45.2%;
-    height: 43%;
-    background: url(../img/speed\ _\ planet.svg) 0 0/100% 100% no-repeat;
-}
-
-.planet-slower {
-    top: 4px !important;
-    left: 38px !important;
-    width: 61%;
-    height: 40.6%;
-    background: url(../img/speed\ _\ planet1.svg) 0 0/100% 100% no-repeat;
+.hero__text {
+    display: block;
+    margin-top: 20px;
+    margin-left: 11px;
+    font-family: 'Open Sans';
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .hero__list {
-    top: 296px !important;
+    display: flex;
+    justify-content: space-between;
 }
 
-
-.tariff-list {
-    display: flex !important;
+.hero__item {
+    max-width: 426px;
+    overflow: hidden;
 }
 
-.tariff-list__item:not(:last-child) {
-    margin-right: 16px;
-}
-
-.tariff__link {
-    position: relative;
-    display: inline-block;
-    border-radius: 20px;
-    font-family: 'Montserrat';
-    font-size: 22px;
-    font-weight: 600;
-    color: #ffffff;
-    background-color: rgba(20%, 21%, 21%, .5);
-    cursor: pointer;
-}
-
-.tariff__link-text {
-    position: relative;
-    display: inline-block;
-    width: 299px;
-    padding: 91px 0 25px 23px;
-    border-radius: 20px;
-    z-index: 5;
-}
-
-.tariff__link-text--video {
-    width: 231px;
-    padding-top: 64px;
-    padding-right: 67px;
-}
-
-.tariff__link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 18px;
-    opacity: 0;
-}
-
-/* ниже, в .tariff__link--***::before, бэки для карточек*/ 
-
-.tariff__link--internet::before {
-    background: radial-gradient(333.03% 852.82% at 316.49% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
-}
-
-.tariff__link--smart::before {
-    background: radial-gradient(332.84% 853.17% at 211.82% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
-}
-
-.tariff__link--video::before {
-    background: radial-gradient(333.63% 853.17% at 106.38% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
-}
-
-.tariff__link--web::before {
-    background: radial-gradient(333.24% 853.17% at 1.71% -551.41%, #FFB984 31.92%, #9A30EE 59.06%, #1B1979 98.91%);
-}
-
-.tariff__link::after {
-    content: "";
-    position: absolute;
-    right: 18px;
-    top: 6px;
-    width: 64px;
-    height: 64px;
-}
-
-.tariff__link--internet::after {
-    background: url(../img/icon/dark/internet_dark.png) 100% 100% no-repeat;
-}
-
-.tariff__link--internet:hover::after {
-    background: url(../img/icon/lite/internet-lite.png);
-    transition: background .3s ease-in-out;
-}
-
-.tariff__link--smart::after {
-    background: url(../img/icon/dark/smart-tv_dark.png) 100% 100% no-repeat;
-}
-
-.tariff__link--smart:hover::after {
-    background: url(../img/icon/lite/smart_tv-lite.png);
-    transition: background .3s ease-in-out;
-}
-
-.tariff__link--video::after {
-    background: url(../img/icon/dark/CCTV_dark.png) 100% 100% no-repeat;
-}
-
-.tariff__link--video:hover::after {
-    background: url(../img/icon/lite/CCTV-lite.png) 100% 100% no-repeat;
-    transition: background .3s ease-in-out;
-}
-
-.tariff__link--web::after {
-    background: url(../img/icon/dark/sites_dark.png) 100% 100% no-repeat;
-}
-
-.tariff__link--web:hover::after {
-    background: url(../img/icon/lite/sites-lite.png) 100% 100% no-repeat;
-    transition: background .3s ease-in-out;
-}
-
-.tariff__link:hover {
-    background-color: transparent;
-    transition: background-color .3s ease-in-out;
-}
-
-.tariff__link:hover::before {
-    opacity: .5;
-    transition: opacity 0.3s ease-in-out;
-}
 
 
 
