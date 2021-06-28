@@ -1,9 +1,9 @@
 
-var startX = [-10, -200, 8, 0];
-var startY = [144, -256, 128, 0];
+var startX = [-109, -255, 108,-132, 0];
+var startY = [130, -336, 203, -111, 0];
 
-var deltaX = [-0.5, -0.2, 0.1, 0];
-var deltaY = [-0.5, -0.2, 0.1, -0.1];
+var deltaX = [-0.2, -0.1, 0.1, 0, 0];
+var deltaY = [-1, -0.8, 0.6, 0, 0];
 
 var scene = $('.planet');
 

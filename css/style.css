@@ -84,19 +84,23 @@ body {
     display: flex;
 }
 
+.container--header {
+    max-width: 1797px;
+}
+
 .header__left {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 16px;
-    padding: 32px 48px 33px 32px;
+    margin-right: 70px;
+    padding: 36px 67px 36px 0px;
     border-right: 1px solid #444444;
 }
 
 .header__burger {
-    width: 26px;
+    width: 31px;
     height: 23px;
-    background: url(../img/icon/burger-icon.svg) center no-repeat;
+    background: url(../img/icon/burger-icon.svg) left center no-repeat;
     cursor: pointer;
 }
 
@@ -109,6 +113,11 @@ body {
 
 .header__logo {
     display: inline-block;
+    padding-top: 3px;
+}
+
+.logo-img {
+    width: 263px;
 }
 
 
@@ -118,22 +127,22 @@ body {
 }
 
 .hero {
-    padding-top: 71px;
+    padding-top: 64px;
 }
 
 .hero__banner {
-    margin-bottom: 104px;
-    padding: 52px 0 95px 927px;
+    margin-bottom: 105px;
+    padding: 56px 0 99px 927px;
     border-radius: 20px;
 }
 
 .planet {
-    background-image: url('../img/speed_planet.svg'), url('../img/planet.svg'), url('../img/speed_planet1.svg'), url('../img/hero-banner.png'), url('../img/fixsed.svg');
+    background-image: url('../img/speed_planet.svg'), url('../img/planet.svg'), url('../img/speed_planet1.svg'), url('../img/fixsed.svg'), url('../img/hero-banner.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: -9px, -256px, 8px, 0, 10px;
-    background-position-y: 144px, -378px, 128px, 0, 10px;
-    background-size: 50%, 70%, 50%, 150%, 50%;
+    background-position-x: -109px, -255px, 108px,-132px, 0;
+    background-position-y: 130px, -336px, 203px, -111px, 0;
+    background-size: 50%, 70%, 58%, 117%, 200%;
 }
 
 .hero__title {
@@ -146,7 +155,7 @@ body {
 
 .hero__text {
     display: block;
-    margin-top: 20px;
+    margin-top: 28px;
     margin-left: 11px;
     font-family: 'Open Sans';
     font-size: 33px;
@@ -163,25 +172,43 @@ body {
     flex: 1 1 426px;
     height: 189px;
     margin-right: 24px;
-    border-radius: 16px;
+    border-radius: 18px;
     overflow: hidden;
 }
 
-.tariff-item--web {
+.tariff-item {
     position: relative;
+}
+
+.tariff-item--web {
     margin-right: 0;
 }
 
-.tariff-item--web::after {
+.tariff-item::after {
     content: '';
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 23px;
+    top: 15px;
     display: inline-block;
-    height: 74px;
     width: 74px;
-    background: url(../img/icon/dark/internet_dark.svg) no-repeat;
-    z-index: 5;
+    height: 74px;
+    background-repeat: no-repeat;
+}
+
+.tariff-item--internet::after {
+    background: url(../img/icon/dark/internet.png);
+}
+
+.tariff-item--smart::after {
+    background: url(../img/icon/dark/smart.png);
+}
+
+.tariff-item--video::after {
+    background: url(../img/icon/dark/video.png);
+}
+
+.tariff-item--web::after {
+    background: url(../img/icon/dark/web.png);
 }
 
 .tariff-item__bg {
