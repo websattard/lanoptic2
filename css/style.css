@@ -299,18 +299,23 @@ body {
 
 .news {
     padding-top: 104px;
+    padding-bottom: 105px;
 }
 
 .news__title {
-    margin: 0 auto 58px;
+    margin: 0 auto 50px;
     font-family: 'Montserrat';
     font-size: 34px;
     color: #F5F8FA;
 }
 
 .swiper-container {
-    max-width: 1776px;
+    max-width: 100vw;
     margin: 0 0 0 72px;
+}
+
+.swiper-wrapper {
+    padding-top: 7px;
 }
 
 .news__article {
@@ -319,6 +324,12 @@ body {
     padding: 32px 32px 80px;
     border-radius: 20px;
     background-color: #343636;
+}
+
+.news__article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5.34853px 9.62735px rgba(0, 0, 0, 0.41);
+    transition: transform .15s linear, box-shadow .15s linear;
 }
 
 .news__data {
@@ -346,6 +357,57 @@ body {
 
 .news-card__text--top {
     margin-bottom: 20px;
+}
+
+.swiper-button-next {
+    top: 46%;
+    right: -48px;
+    width: 77px;
+    height: 81px;
+    border: 1px solid #FF730E;
+    border-radius: 100%;
+    background-color: #2B2B2B;
+}
+
+.swiper-button-next::after {
+    content: '';
+    width: 9px;
+    height: 2px;
+    background: #FF730E;
+    right: 61%;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 37px;
+    border-radius: 20%;
+}
+
+.swiper-button-next::before {
+    content: '';
+    width: 9px;
+    height: 2px;
+    background: #FF730E;
+    right: 61%;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 43px;
+    border-radius: 20%;
+}
+
+.sberpay {
+    padding-bottom: 136px;
+}
+
+.swiper-wrapper__sberpay {
+    padding: 0;
+}
+
+.sberpay__slide {
+    width: 1171px !important;
+    height: 412px;
+    margin-right: 20px;
+    border-radius: 26px;
+    background: url(../img/sberpay-banner.jpg);
+
 }
 
 

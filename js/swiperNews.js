@@ -1,5 +1,6 @@
 const swiperNews = new Swiper('.swiper-container', {
-    direction: 'vertical',
+    speed: 1000,
+    direction: 'horizontal',
     loop: false,
     navigation: {
         nextEl: '.swiper-button-next'
