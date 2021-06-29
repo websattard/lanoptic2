@@ -120,10 +120,40 @@ body {
     width: 263px;
 }
 
+.header__city-btn {
+    padding-right: 20px;
+    border: none;
+    border-bottom: 1px dashed #FF730E;
+    outline: none;
+    background: url(../img/icon/city-arrow.svg) right center/ 9px 9px no-repeat;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF730E;
+    cursor: pointer;
+}
 
 .header__inner {
     display: flex;
     align-items: center;
+}
+
+.header__tel {
+    margin-left: 55px;
+    font-size: 18px;
+}
+
+.tel {
+    color: #F5F8FA;
+}
+
+.header__login {
+    display: inline-block;
+    margin-right: 9px;
+    margin-left: 48px;
+    padding-left: 23px;
+    background: url(../img/icon/login-icon.svg) left center/15px 15px no-repeat;
+    font-size: 18px;
+    color: #F5F8FA;
 }
 
 .hero {
@@ -226,9 +256,30 @@ body {
     filter: grayscale(0);
 }
 
-.hero__item:hover > .tariff-item__bg--gray {
+.hero__item:hover .tariff-item__bg--gray {
     filter: grayscale(0);
+    transition: filter .3s linear;
 }
+
+.tariff-item:hover::after {
+    transition: background .3s linear;
+}
+
+.tariff-item--internet:hover::after {
+    background: url(../img/icon/lite/internet-lite.png) center center / 74px 74px no-repeat;
+} 
+
+.tariff-item--smart:hover::after {
+    background: url(../img/icon/lite/smart_tv-lite.png) center center / 74px 74px no-repeat;
+} 
+
+.tariff-item--video:hover::after {
+    background: url(../img/icon/lite/CCTV-lite.png) center center / 74px 74px no-repeat;
+} 
+
+.tariff-item--web:hover::after {
+    background: url(../img/icon/lite/sites-lite.png) center center / 74px 74px no-repeat;
+} 
 
 .hero__link {
     display: block;
