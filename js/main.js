@@ -24,9 +24,9 @@ function parallax(dx, dy) {
     
 }
 
-//$(window).scroll(function (evt) {
-//   parallax(0, $(document).scrollTop());
-//});
+$(window).scroll(function (evt) {
+   parallax(0, $(document).scrollTop(evt.pageY));
+});
 
 $(window).mousemove(function (evt) {
     parallax(-evt.pageX, evt.clientY / window.innerHeight);
