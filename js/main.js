@@ -2,11 +2,10 @@
 var startX = [-109, -255, 108,-132, 0];
 var startY = [130, -336, 203, -111, 0];
 
-var deltaX = [-0.08, -0.06, -0.04, 0, 0];
-var deltaY = [80, 60, 40, 0, 0];
+var deltaX = [-0.04, -0.06, -0.08, 0, 0];
+var deltaY = [60, 80, 100, 0, 0];
 
 var scene = $('.planet');
-var hero = $('.hero')
 
 function parallax(dx, dy) {
     if (dx) {
@@ -29,6 +28,6 @@ function parallax(dx, dy) {
 //   parallax(0, $(document).scrollTop());
 //});
 
-$(hero).mousemove(function (evt) {
+$(window).mousemove(function (evt) {
     parallax(-evt.pageX, evt.clientY / window.innerHeight);
 });

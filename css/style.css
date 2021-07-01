@@ -167,7 +167,11 @@ body {
 }
 
 .planet {
-    background-image: url('../img/speed_planet.svg'), url('../img/planet.svg'), url('../img/speed_planet1.svg'), url('../img/fixsed.svg'), url('../img/hero-banner.png');
+    background-image: url('../img/speed_planet.svg'), 
+                        url('../img/planet.svg'), 
+                        url('../img/speed_planet1.svg'), 
+                        url('../img/fixsed.svg'), 
+                        url('../img/hero-banner.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: -109px, -255px, 108px,-132px, 0;
