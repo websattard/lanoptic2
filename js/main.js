@@ -29,5 +29,5 @@ $(window).scroll(function (evt) {
 });
 
 $(window).mousemove(function (evt) {
-    parallax(-evt.pageX, evt.clientY / window.innerHeight);
+    parallax(-evt.pageX, evt.pageY / window.innerHeight);
 });
