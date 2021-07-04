@@ -81,10 +81,6 @@ body {
 	display: flex;
 }
 
-.container--header {
-	max-width: 1797px;
-}
-
 .header__left {
 	display: -webkit-box;
 	display: -ms-flexbox;
