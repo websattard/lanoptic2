@@ -1,0 +1,130 @@
+font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+		url('../fonts/OpenSans-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+		url('../fonts/OpenSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+		url('../fonts/Montserrat-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+		url('../fonts/Montserrat-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 1600px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #1E2020;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.container {
+	max-width: 1142px;
+	margin: auto;
+}
+
+.title-site {
+	margin: 0;
+	padding: 0;
+}
+
+.p-site {
+	margin: 0;
+	padding: 0;
+}
+
+.site-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.site-link {
+	text-decoration: none;
+}
+
+.wrapper {
+	margin-top: 50px;
+	height: 366px;
+	border-radius: 20px;
+}
+
+.parallax {
+	background-color: rgba(52, 54, 54, .5);
+	background-image: url(img/smotreshka/slow.svg),
+									url(img/smotreshka/fast.svg),
+									url(img/smotreshka/normal.svg),
+									url(img/smotreshka/fixed.svg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: 700px, 1005px, 875px, 450px;
+	background-position-y: 180px, 0, 85px, 58px;
+	background-size: 40%, 15%, 38%, 28%;
+}
+
+.parallax__title {
+	margin-bottom: 25px;
+	font-family: 'Montserrat';
+	font-size: 80px;	
+	font-weight: 600;
+	color: #ffffff;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.title__icon {
+	position: relative;
+	top: 15px;
+	display: inline-block;
+	width: 97px;
+	height: 100px;
+	background: url(img/smotreshka/title-icon.png) center / cover no-repeat;
+}
+
+.parallax__descr {
+	margin-bottom: 25px;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1;
+}
+
+.parallax__btn {
+	display: inline-block;
+	padding: 14px 58px;
+	border-radius: 20px;
+	background-color: orange;
+	color: #333333;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 600;
+}
+
