@@ -2,7 +2,7 @@ var startX = [700, 1005, 875, 450];
 var startY = [180, 0, 85, 58];
 
 var deltaX = [0.02, 0.04, 0.03, 0];
-var deltaY = [0.02, 0.04, 0.03, 0];
+var deltaY = [0.02, 0.06, 0.04, 0];
 var deltaS = [-1.2, -1.2, -1.2, 0];
 
 var posX = 0; 
