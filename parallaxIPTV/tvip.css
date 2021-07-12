@@ -78,52 +78,13 @@ body {
 
 .parallax {
 	background-color: rgba(52, 54, 54, 1);
-	background-image: url(img/smotreshka/slow.svg),
-							url(img/smotreshka/fast.svg),
-							url(img/smotreshka/normal.svg),
-							url(img/smotreshka/fixed.svg);
+	background-image: url(img/tvip/fixed.svg),
+									url(img/tvip/slow.svg),
+									url(img/tvip/fast.svg),
+									url(img/tvip/normal.svg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position-x: 707px, 1024px, 878px, 444px;
-	background-position-y: 153px, -28px, 49px, 51px;
-	background-size: 41%, 15%, 39%, 28%;
-}
-
-.parallax__title {
-	margin-bottom: 25px;
-	font-family: 'Montserrat';
-	font-size: 80px;	
-	font-weight: 600;
-	color: #ffffff;
-	line-height: 1;
-	text-transform: uppercase;
-}
-
-.title__icon {
-	position: relative;
-	top: 15px;
-	display: inline-block;
-	width: 97px;
-	height: 100px;
-	background: url(img/smotreshka/title-icon.png) center / cover no-repeat;
-}
-
-.parallax__descr {
-	margin-bottom: 25px;
-	font-family: 'Montserrat';
-	font-size: 24px;
-	font-weight: 400;
-	color: #ffffff;
-	line-height: 1;
-}
-
-.parallax__btn, .tvip-link {
-	display: inline-block;
-	padding: 14px 58px;
-	border-radius: 20px;
-	background-color: orange;
-	color: #333333;
-	font-family: 'Montserrat';
-	font-size: 16px;
-	font-weight: 600;
+	background-position-x: 490px, 420px, 472px, 379px;
+	background-position-y: 101px, 104px, -71px, -18px;
+	background-size: 51%, 56%, 58%, 62%;
 }
