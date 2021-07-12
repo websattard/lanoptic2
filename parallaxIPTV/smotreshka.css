@@ -36,7 +36,7 @@ font-face {
 }
 
 body {
-	height: 1000vh;
+	height: 1600px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	background: #1E2020;
@@ -84,8 +84,8 @@ body {
 							url(img/smotreshka/fixed.svg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position-x: 59%, 59%, 71%, 30.5%;
-	background-position-y: 69%, -17%, 16%, 21%;
+	background-position-x: 707px, 1024px, 878px, 444px;
+	background-position-y: 153px, -28px, 49px, 51px;
 	background-size: 41%, 15%, 39%, 28%;
 }
 

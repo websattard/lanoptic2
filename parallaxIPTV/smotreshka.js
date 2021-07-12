@@ -1,9 +1,9 @@
-var startX = [59, 59, 71, 30.5];
-var startY = [69, -17, 16, 21];
+var startX = [707, 1024, 878, 444];
+var startY = [153, -28, 49, 51];
 
-var deltaX = [0.002, 0.01, 0.004, 0];
-var deltaY = [0.002, 0.01, 0.004, 0];
-var deltaS = [-0.12, -0.12, -0.12, 0];
+var deltaX = [0.02, 0.1, 0.04, 0];
+var deltaY = [0.02, 0.1, 0.04, 0];
+var deltaS = [-1.2, -1.2, -1.2, 0];
 
 var posX = 0; 
 var posY = 0; 
@@ -15,17 +15,17 @@ function parallax() {
 	scene.css('background-position-x',
 		startX.map(function (x, i) {
 			return x + posX * deltaX[i];
-		}).join('%, ') + '%');
+		}).join('px, ') + 'px');
 
 	scene.css('background-position-y',
 		startY.map(function (y, i) {
 			return y + posY * deltaY[i];
-		}).join('%, ') + '%');
+		}).join('px, ') + 'px');
 
 	scene.css('background-position-y',
 		startY.map(function (y, i) {
 			return y + posY * deltaY[i] + posS * deltaS[i];
-		}).join('%, ') + '%');
+		}).join('px, ') + 'px');
 };
 
 $(window).scroll(function () {
