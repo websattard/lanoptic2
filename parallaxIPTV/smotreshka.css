@@ -77,15 +77,15 @@ body {
 }
 
 .parallax {
-	background-color: rgba(52, 54, 54, .5);
+	background-color: rgba(52, 54, 54, 1);
 	background-image: url(img/smotreshka/slow.svg),
-								url(img/smotreshka/fast.svg),
-								url(img/smotreshka/normal.svg),
-								url(img/smotreshka/fixed.svg);
+							url(img/smotreshka/fast.svg),
+							url(img/smotreshka/normal.svg),
+							url(img/smotreshka/fixed.svg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position-x: 707px, 1024px, 878px, 444px;
-	background-position-y: 153px, -28px, 49px, 51px;
+	background-position-x: 59%, 59%, 71%, 30.5%;
+	background-position-y: 69%, -17%, 16%, 21%;
 	background-size: 41%, 15%, 39%, 28%;
 }
 
