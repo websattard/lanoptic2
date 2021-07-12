@@ -3,7 +3,7 @@ var startY = [153, -28, 49, 51];
 
 var deltaX = [0.02, 0.1, 0.04, 0];
 var deltaY = [0.02, 0.1, 0.04, 0];
-var deltaS = [-1.2, -1.2, -1.2, 0];
+var deltaS = [-1.2, -1.2, -1.2, -1.2];
 
 var posX = 0; 
 var posY = 0; 
